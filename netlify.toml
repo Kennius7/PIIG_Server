@@ -1,5 +1,5 @@
 [build]
-  functions="functions-build"
+  functions="functions"
 
 [[headers]]
   for = "/*"
@@ -8,7 +8,7 @@
 
 [[redirects]]
   from = "/*"
-  to = "https://publishitingath.netlify.app/.netlify/functions/api/:splat"
+  to = "https://piig-server.netlify.app/.netlify/functions/api/:splat"
   status = 200
 
 
